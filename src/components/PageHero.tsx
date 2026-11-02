@@ -22,7 +22,7 @@ export default function PageHero({ image, title, subtitle, preserveAspectRatio =
         alt={title}
         className={`absolute inset-0 w-full h-full ${preserveAspectRatio ? 'object-contain' : 'object-cover'}`}
       />
-      <div className="absolute inset-0 bg-black/45" />
+      <div className="absolute inset-0 bg-gradient-to-b from-black/55 via-black/25 to-black/75" />
       <div className="relative z-10 h-full flex flex-col items-center justify-center text-center px-6">
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}>
           <h1 className="font-serif text-white text-4xl md:text-6xl tracking-wide">{title}</h1>

@@ -337,3 +337,7 @@ Le contenu (histoire, restaurant, coordonnées) a été extrait du site officiel
 
 **Stack technique** : React 18 · TypeScript · Vite 5 · Tailwind CSS 3 · React Router 6 · i18next · Framer Motion · Lucide React · date-fns
 **Dernière mise à jour** : Septembre 2026
+<<<<<<< HEAD
+=======
+# lacolongette
+>>>>>>> b6c7219 (first commit)

@@ -144,7 +144,7 @@ export default function Home() {
       {/* Final CTA */}
       <section className="relative py-24 overflow-hidden">
         <img src="/images/Photo-Gallerie-2-1200.jpg" alt="" className="absolute inset-0 w-full h-full object-cover" />
-        <div className="absolute inset-0 bg-black/55" />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/45 via-black/55 to-black/85" />
         <div className="relative z-10 container-luxe text-center">
           <h2 className="font-serif text-3xl md:text-4xl text-white mb-4">{t('home.ctaTitle')}</h2>
           <p className="text-white/80 mb-8">{t('home.ctaText')}</p>

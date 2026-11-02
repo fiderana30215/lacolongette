@@ -29,7 +29,11 @@ export default function Footer() {
       <div className="container-luxe py-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
         {/* About */}
         <div>
-          <div className="font-serif text-xl text-white tracking-wider mb-4">ROYAL PALACE</div>
+          <img
+            src="/images/logo-texte-blanc.png"
+            alt="La Colonguette — Hôtel-Restaurant Antsirabe"
+            className="w-44 max-w-full mb-4"
+          />
           <p className="text-sm leading-relaxed">{t('footer.aboutText')}</p>
           <div className="flex items-center gap-4 mt-5">
             <a href="https://www.facebook.com/hotelroyalpalaceantsirabe" target="_blank" rel="noreferrer" aria-label="Facebook" className="hover:text-gold-500 transition-colors">

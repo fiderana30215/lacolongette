@@ -42,7 +42,7 @@ export default function Hero() {
           decoding="async"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/10 to-black/50" />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/25 to-black/80" />
       </div>
 
       {/* Centered content */}
