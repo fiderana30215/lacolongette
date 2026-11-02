@@ -32,13 +32,20 @@ export default function Header() {
 
   // Overlay the page hero until the visitor starts scrolling.
   const transparent = !scrolled && !mobileOpen
+<<<<<<< HEAD
   const textColor = 'text-white'
   const hoverColor = 'hover:text-gold-300'
+=======
+  const textColor = transparent ? 'text-white' : 'text-charcoal'
+  // Couleur de survol plus visible : doré clair sur fond transparent, doré foncé sur fond blanc
+  const hoverColor = transparent ? 'hover:text-gold-300' : 'hover:text-gold-600'
+>>>>>>> d598250 (modif)
 
   return (
     <header
       className={classNames(
         'fixed top-0 left-0 right-0 z-50 transition-all duration-500',
+<<<<<<< HEAD
         transparent ? 'bg-transparent py-6' : 'bg-charcoal/95 backdrop-blur-sm shadow-sm py-3'
       )}
     >
@@ -47,6 +54,17 @@ export default function Header() {
           <img
             src="/images/logo-texte-blanc.png"
             alt="La Colonguette — Hôtel-Restaurant Antsirabe"
+=======
+        transparent ? 'bg-transparent py-6' : 'bg-white/95 backdrop-blur-sm shadow-sm py-3'
+      )}
+    >
+      <div className="container-luxe flex items-center justify-between gap-4">
+        {/* Logo : version claire sur hero transparent, version foncée une fois scrollé */}
+        <Link to="/" className="flex items-center shrink-0">
+          <img
+            src={transparent ? '/images/logo.png' : '/images/logo-dark.png'}
+            alt="Royal Palace Antsirabe"
+>>>>>>> d598250 (modif)
             className="h-14 md:h-20 w-auto object-contain transition-opacity duration-300"
           />
         </Link>

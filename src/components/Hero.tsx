@@ -42,7 +42,11 @@ export default function Hero() {
           decoding="async"
           className="w-full h-full object-cover"
         />
+<<<<<<< HEAD
         <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/25 to-black/80" />
+=======
+        <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/10 to-black/50" />
+>>>>>>> d598250 (modif)
       </div>
 
       {/* Centered content */}
@@ -78,7 +82,11 @@ export default function Hero() {
           (fondu + léger glissement). Son propre transform ne peut donc plus
           jamais entrer en conflit avec le positionnement.
       */}
+<<<<<<< HEAD
       <div className="absolute bottom-0 left-0 right-0 translate-y-[calc(50%-0.2cm)] z-30 px-4 md:px-0">
+=======
+      <div className="absolute bottom-32 left-0 right-0 translate-y-0 md:bottom-0 md:translate-y-[calc(50%-0.2cm)] z-30 px-4 md:px-0">
+>>>>>>> d598250 (modif)
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}

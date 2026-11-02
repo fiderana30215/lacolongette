@@ -152,7 +152,11 @@ export default function AdminDashboard() {
   const sidebar = (
     <>
       <div className="border-b border-gray-200 px-6 py-6">
+<<<<<<< HEAD
         <img src="/images/logo-texte.png" alt="La Colonguette — Hôtel-Restaurant Antsirabe"
+=======
+        <img src="/images/logo-dark.png" alt="Royal Palace Antsirabe"
+>>>>>>> d598250 (modif)
           className="h-14 max-w-full object-contain object-left" />
         <h1 className="mt-3 font-serif text-xl text-charcoal">Administration</h1>
       </div>

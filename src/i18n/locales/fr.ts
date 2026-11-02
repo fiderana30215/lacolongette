@@ -33,9 +33,15 @@ const fr = {
     home: 'Accueil',
   },
   hero: {
+<<<<<<< HEAD
     title: 'HOTEL La COLONGETTE',
     subtitle: 'ANTSIRABE',
     tagline: "Bienvenue dans votre parenthèse d’évasion, où confort, élégance et convivialité se rencontrent",
+=======
+    title: 'ROYAL PALACE',
+    subtitle: 'ANTSIRABE',
+    tagline: "Une adresse de charme au cœur d'Antsirabe",
+>>>>>>> d598250 (modif)
   },
   home: {
     introEyebrow: 'Bienvenue au Royal Palace',

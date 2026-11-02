@@ -11,8 +11,13 @@ body {
 }
 
 ::selection {
+<<<<<<< HEAD
   background-color: #FFBF1C;
   color: #0B0B0B;
+=======
+  background-color: #C9A961;
+  color: white;
+>>>>>>> d598250 (modif)
 }
 
 /* Custom scrollbar */
@@ -20,6 +25,7 @@ body {
   width: 8px;
 }
 ::-webkit-scrollbar-track {
+<<<<<<< HEAD
   background: #F7F1DC;
 }
 ::-webkit-scrollbar-thumb {
@@ -28,6 +34,16 @@ body {
 }
 ::-webkit-scrollbar-thumb:hover {
   background: #E5A900;
+=======
+  background: #F5F5F0;
+}
+::-webkit-scrollbar-thumb {
+  background: #C9A961;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #B8984F;
+>>>>>>> d598250 (modif)
 }
 
 @layer components {
@@ -38,7 +54,11 @@ body {
     @apply text-gold-600 font-sans text-xs md:text-sm tracking-widest2 uppercase font-medium mb-3;
   }
   .btn-gold {
+<<<<<<< HEAD
     @apply inline-flex items-center justify-center gap-2 bg-gold-500 hover:bg-gold-600 text-charcoal font-semibold tracking-wider uppercase text-sm px-8 py-4 transition-all duration-300 shadow-card;
+=======
+    @apply inline-flex items-center justify-center gap-2 bg-gold-500 hover:bg-gold-600 text-white font-medium tracking-wider uppercase text-sm px-8 py-4 transition-all duration-300 shadow-card;
+>>>>>>> d598250 (modif)
   }
   .btn-outline {
     @apply inline-flex items-center justify-center gap-2 border border-gold-500 text-gold-600 hover:bg-gold-500 hover:text-white font-medium tracking-wider uppercase text-sm px-8 py-4 transition-all duration-300;
@@ -51,5 +71,9 @@ body {
 /* React-datepicker overrides for luxury theme */
 .rdp-luxe .react-datepicker {
   font-family: 'Inter', sans-serif;
+<<<<<<< HEAD
   border-color: #FFBF1C;
+=======
+  border-color: #EAD9AF;
+>>>>>>> d598250 (modif)
 }
